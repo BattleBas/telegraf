@@ -21,63 +21,62 @@ func TestData(t *testing.T) {
 		name string
 		test string
 	}{
-		// !!!! TEST JSON THAT ISN'T PRETTY FORMATTED !!!!
 		{
 			name: "Test selecting with sub field and tags",
 			test: "test_subfieldtag_in_object",
 		},
-		// {
-		// 	name: "Test using just fields and tags",
-		// 	test: "fields_and_tags",
-		// },
-		// {
-		// 	name: "Test gathering from array of nested objects",
-		// 	test: "nested_array_of_objects",
-		// },
-		// {
-		// 	name: "Test setting timestamp",
-		// 	test: "timestamp",
-		// },
-		// {
-		// 	name: "Test setting measurement name from int",
-		// 	test: "measurement_name_int",
-		// },
-		// {
-		// 	name: "Test multiple types",
-		// 	test: "types",
-		// },
-		// {
-		// 	name: "Test settings tags in nested object",
-		// 	test: "nested_tags",
-		// },
-		// {
-		// 	name: "Test settings tags in nested and non-nested objects",
-		// 	test: "nested_and_nonnested_tags",
-		// },
-		// {
-		// 	name: "Test a more complex nested tag retrieval",
-		// 	test: "nested_tags_complex",
-		// },
-		// {
-		// 	name: "Test multiple arrays in object",
-		// 	test: "multiple_arrays_in_object",
-		// },
-		// {
-		// 	name: "Test fields and tags complex",
-		// 	test: "fields_and_tags_complex",
-		// },
-		// {
-		// 	name: "Test object",
-		// 	test: "object",
-		// },
-		// {
-		// 	name: "Test multiple timestamps",
-		// 	test: "multiple_timestamps",
-		// },
-		// {
-		// 	name: "Test field with null",
-		// 	test: "null",
-		// },
+		{
+			name: "Test using just fields and tags",
+			test: "fields_and_tags",
+		},
+		{
+			name: "Test gathering from array of nested objects",
+			test: "nested_array_of_objects",
+		},
+		{
+			name: "Test setting timestamp",
+			test: "timestamp",
+		},
+		{
+			name: "Test setting measurement name from int",
+			test: "measurement_name_int",
+		},
+		{
+			name: "Test multiple types",
+			test: "types",
+		},
+		{
+			name: "Test settings tags in nested object",
+			test: "nested_tags",
+		},
+		{
+			name: "Test settings tags in nested and non-nested objects",
+			test: "nested_and_nonnested_tags",
+		},
+		{
+			name: "Test a more complex nested tag retrieval",
+			test: "nested_tags_complex",
+		},
+		{
+			name: "Test multiple arrays in object",
+			test: "multiple_arrays_in_object",
+		},
+		{
+			name: "Test fields and tags complex",
+			test: "fields_and_tags_complex",
+		},
+		{
+			name: "Test object",
+			test: "object",
+		},
+		{
+			name: "Test multiple timestamps",
+			test: "multiple_timestamps",
+		},
+		{
+			name: "Test field with null",
+			test: "null",
+		},
 	}
 
 	for _, tc := range tests {
