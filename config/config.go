@@ -1421,8 +1421,8 @@ func (c *Config) getParserConfig(name string, tbl *ast.Table) (*parsers.Config, 
 							c.getFieldStringMap(objectConfig, "renames", &o.Renames)
 							c.getFieldStringMap(objectConfig, "fields", &o.Fields)
 
-							o.FieldPaths = getFieldSubtable(c, metricConfig)
-							o.TagPaths = getTagSubtable(c, metricConfig)
+							o.FieldPaths = getFieldSubtable(c, objectConfig)
+							o.TagPaths = getTagSubtable(c, objectConfig)
 
 							mc.JSONObjects = append(mc.JSONObjects, o)
 						}

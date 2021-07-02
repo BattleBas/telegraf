@@ -22,8 +22,12 @@ func TestData(t *testing.T) {
 		test string
 	}{
 		{
+			name: "A second test when selecting with sub field and tags",
+			test: "subfieldtag_in_object_2",
+		},
+		{
 			name: "Test selecting with sub field and tags",
-			test: "test_subfieldtag_in_object",
+			test: "subfieldtag_in_object",
 		},
 		{
 			name: "Test using just fields and tags",
